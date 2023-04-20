@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+/* @media screen and (max-width:500px)  {
+    body{
+        background-color: rgb(251, 255, 0);
+    }
+    h1{
+        background-color: chartreuse;
+        color:red hsl(230, 10%, 10%);
+    }
+} */
+
+.header{
+    background-color: chartreuse;
+}
+
+    .header h1{
+        /* position:fixed; */
+        padding: 1%;
+        margin: 0%;
+        text-align: center;
+        text-shadow: 20%;
+        color: rgb(235, 38, 61);
+        border-radius: 25px;
+        background-color: silver;
+        /* text-shadow: 3px 3px 13px red; */
+    }
+   .parent{
+    display: flex;
+    height: 100vh;
+    
+   }
+
+   .child1{
+    color: blue;
+    height: 100vh;
+    width: 50%;
+   }
+
+
+
+    img {
+    border :1px solid black;
+   }
+    
+   .child2{
+    color: rgb(18, 209, 155);
+    height: 100vh;
+    width: 50%;
+    background-color: aquamarine;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/74/India-map-en.svg");
+    background-position: center;
+    background-size: 510px 510px;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+   }
+   
+
+   
+    
+    
